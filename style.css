@@ -1,0 +1,40 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #c7c3c3;
+}
+
+#project {
+  background-color: #c7c3c3;
+}
+#contact {
+  background-color: #fffdfd;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+.scale-up-ver-center {
+  -webkit-animation: scale-up-ver-center 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+  animation: scale-up-ver-center 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+}
