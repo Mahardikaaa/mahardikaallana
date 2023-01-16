@@ -14,7 +14,7 @@ section {
   padding-top: 5rem;
 }
 
-scale-up-ver-center {
+@-webkit-keyframes scale-up-ver-center {
   0% {
     -webkit-transform: scaleY(0.4);
     transform: scaleY(0.4);
@@ -24,7 +24,7 @@ scale-up-ver-center {
     transform: scaleY(1);
   }
 }
-scale-up-ver-center {
+@keyframes scale-up-ver-center {
   0% {
     -webkit-transform: scaleY(0.4);
     transform: scaleY(0.4);
